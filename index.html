@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator(iPhone)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input"><form name="form"><input type="text" name="textview" readonLy></form></div>
+          
+          <div class="item ops" onclick="clean()">AC</div>
+          <div class="item ops" onclick="deny()">+/-</div>
+          <div class="item ops" onclick="percent()">%</div>
+          <div class="item sign divide" onclick="insert('/')">&divide;</div>
+          <div class="item" onclick="insert('7')">7</div>
+          <div class="item" onclick="insert('8')">8</div>
+          <div class="item" onclick="insert('9')">9</div>
+          <div class="item sign times" onclick="insert('*')">&times;</div>
+          <div class="item" onclick="insert('4')">4</div>
+          <div class="item" onclick="insert('5')">5</div>
+          <div class="item" onclick="insert('6')">6</div>
+          <div class="item sign minus" onclick="insert('-')">-</div>
+          <div class="item" onclick="insert('1')">1</div>
+          <div class="item" onclick="insert('2')">2</div>
+          <div class="item" onclick="insert('3')">3</div>
+          <div class="item sign plus" onclick="insert('+')">+</div>
+          <div class="item zero" onclick="insert('0')">0</div>
+          <div class="item dot" onclick="insert('.')">.</div>
+          <div class="item sign" onclick="equal()">=</div>
+        </div>
+
+ <script src="script.js"></script>
+</body>
+</html>
